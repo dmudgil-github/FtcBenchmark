@@ -1,0 +1,74 @@
+server:
+  port: 8081
+  contextPath: /app-gateway
+
+logging:
+  file: ../logs/app-gateway/logfile.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.security: WARN
+    org.springframework.web: ERROR
+    com.mudgil.demo1: ERROR
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+---
+
+spring:
+  profiles: dev
+  
+RunMode:
+  ipcModeML: direct
+  ipcModeRules: rest
+     
+servermlengine:
+  app-path:
+    app-context: /app-ml-engine
+    apiURI: /api/mlengine/
+  cluster:
+    - host: localhost
+      port: 8082
+
+serverrulesengine:
+  app-path:
+    app-context: /app-rules-engine
+    apiURI: /api/rulesengine/
+  cluster:
+    - host: localhost
+      port: 8083
+
+--- 
+
+spring:
+  profiles: prod
+     
+RunMode:
+  ipcModeML: REST
+  ipcModeRules: REST
+
+       
+servermlengine:
+  app-path:
+    app-context: /app-ml-engine
+    apiURI: /api/mlengine/
+  cluster:
+    - host: localhost
+      port: 7082
+    - host: localhost1
+      port: 7182   
+
+serverrulesengine:
+  app-path:
+    app-context: /app-rules-engine
+    apiURI: /api/rulesengine/
+  cluster:
+    - host: localhost
+      port: 7083
+    - host: localhost1
+      port: 7183      

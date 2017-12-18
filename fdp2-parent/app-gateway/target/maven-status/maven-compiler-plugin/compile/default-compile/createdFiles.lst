@@ -1,0 +1,3 @@
+com\mudgil\demo1\gateway\controller\GatewayApiController.class
+com\mudgil\demo1\gateway\controller\HelloWorldController.class
+com\mudgil\demo1\gateway\GatewayAppStarter.class

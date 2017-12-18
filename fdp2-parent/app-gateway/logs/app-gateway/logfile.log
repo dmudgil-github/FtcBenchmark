@@ -1,0 +1,403 @@
+2017-11-27 20:43:53,198 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Starting GatewayAppStarter v1.0-SNAPSHOT on DMWin10 with PID 11684 (E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target\app-gateway-1.0-SNAPSHOT.jar started by Dheeraj in E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target)
+2017-11-27 20:43:53,206 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : The following profiles are active: dev
+2017-11-27 20:43:53,305 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12f40c25: startup date [Mon Nov 27 20:43:53 GMT 2017]; root of context hierarchy
+2017-11-27 20:43:54,717 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-27 20:43:55,635 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-11-27 20:43:55,655 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-11-27 20:43:55,658 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-27 20:43:55,827 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/app-gateway] : Initializing Spring embedded WebApplicationContext
+2017-11-27 20:43:56,097 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-27 20:43:56,104 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-27 20:43:56,105 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-27 20:43:56,105 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-27 20:43:56,106 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-27 20:43:56,328 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,329 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,331 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,378 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,378 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,380 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:43:56,386 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.RulesEngineProperties com.mudgil.demo1.gateway.util.config.Config.rulesEngineProperties
+2017-11-27 20:43:56,387 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.MLEngineProperties com.mudgil.demo1.gateway.util.config.Config.mlEngineProperties
+2017-11-27 20:43:57,163 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2017-11-27 20:43:57,427 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-11-27 20:43:57,435 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Started GatewayAppStarter in 5.083 seconds (JVM running for 5.79)
+2017-11-27 20:44:10,264 INFO  [Thread-3] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12f40c25: startup date [Mon Nov 27 20:43:53 GMT 2017]; root of context hierarchy
+2017-11-27 20:44:10,267 INFO  [Thread-3] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2017-11-27 20:44:29,614 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Starting GatewayAppStarter v1.0-SNAPSHOT on DMWin10 with PID 12244 (E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target\app-gateway-1.0-SNAPSHOT.jar started by Dheeraj in E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target)
+2017-11-27 20:44:29,622 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : The following profiles are active: dev
+2017-11-27 20:44:29,722 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@198e2867: startup date [Mon Nov 27 20:44:29 GMT 2017]; root of context hierarchy
+2017-11-27 20:44:31,221 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-27 20:44:32,136 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-11-27 20:44:32,153 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-11-27 20:44:32,156 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-27 20:44:32,323 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/app-gateway] : Initializing Spring embedded WebApplicationContext
+2017-11-27 20:44:32,572 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-27 20:44:32,579 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-27 20:44:32,579 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-27 20:44:32,579 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-27 20:44:32,580 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-27 20:44:32,791 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,792 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,792 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,837 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,838 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,839 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:44:32,847 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.RulesEngineProperties com.mudgil.demo1.gateway.util.config.Config.rulesEngineProperties
+2017-11-27 20:44:32,848 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.MLEngineProperties com.mudgil.demo1.gateway.util.config.Config.mlEngineProperties
+2017-11-27 20:44:33,639 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2017-11-27 20:44:33,863 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-11-27 20:44:33,871 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Started GatewayAppStarter in 5.133 seconds (JVM running for 5.813)
+2017-11-27 20:44:43,690 INFO  [Thread-3] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@198e2867: startup date [Mon Nov 27 20:44:29 GMT 2017]; root of context hierarchy
+2017-11-27 20:44:43,691 INFO  [Thread-3] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2017-11-27 20:46:40,247 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Starting GatewayAppStarter v1.0-SNAPSHOT on DMWin10 with PID 12680 (E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target\app-gateway-1.0-SNAPSHOT.jar started by Dheeraj in E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target)
+2017-11-27 20:46:40,254 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : The following profiles are active: dev
+2017-11-27 20:46:40,351 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@198e2867: startup date [Mon Nov 27 20:46:40 GMT 2017]; root of context hierarchy
+2017-11-27 20:46:41,749 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-27 20:46:42,740 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-11-27 20:46:42,760 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-11-27 20:46:42,763 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-27 20:46:42,932 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/app-gateway] : Initializing Spring embedded WebApplicationContext
+2017-11-27 20:46:43,199 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-27 20:46:43,207 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-27 20:46:43,207 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-27 20:46:43,207 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-27 20:46:43,208 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-27 20:46:43,420 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,420 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,421 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,467 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,467 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,469 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:46:43,476 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.RulesEngineProperties com.mudgil.demo1.gateway.util.config.Config.rulesEngineProperties
+2017-11-27 20:46:43,476 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.MLEngineProperties com.mudgil.demo1.gateway.util.config.Config.mlEngineProperties
+2017-11-27 20:46:44,268 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2017-11-27 20:46:44,507 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-11-27 20:46:44,520 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Started GatewayAppStarter in 5.117 seconds (JVM running for 5.829)
+2017-11-27 20:48:21,314 INFO  [Thread-3] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@198e2867: startup date [Mon Nov 27 20:46:40 GMT 2017]; root of context hierarchy
+2017-11-27 20:48:21,315 INFO  [Thread-3] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2017-11-27 20:48:27,672 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Starting GatewayAppStarter v1.0-SNAPSHOT on DMWin10 with PID 14664 (E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target\app-gateway-1.0-SNAPSHOT.jar started by Dheeraj in E:\projects\txn-fraud-demo\MyAws\fdp2-parent\app-gateway\target)
+2017-11-27 20:48:27,686 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : The following profiles are active: dev
+2017-11-27 20:48:28,018 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@198e2867: startup date [Mon Nov 27 20:48:28 GMT 2017]; root of context hierarchy
+2017-11-27 20:48:31,871 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-27 20:48:34,753 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-11-27 20:48:34,791 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-11-27 20:48:34,809 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-27 20:48:35,532 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/app-gateway] : Initializing Spring embedded WebApplicationContext
+2017-11-27 20:48:36,079 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-27 20:48:36,219 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-27 20:48:36,323 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-27 20:48:36,411 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-27 20:48:36,591 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-27 20:48:37,440 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,449 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,513 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.RulesEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,660 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,691 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,703 WARN  [main] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor : The @ConfigurationProperties bean class com.mudgil.demo1.gateway.util.config.MLEngineProperties contains validation constraints but had not been annotated with @Validated.
+2017-11-27 20:48:37,760 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.RulesEngineProperties com.mudgil.demo1.gateway.util.config.Config.rulesEngineProperties
+2017-11-27 20:48:37,770 WARN  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static com.mudgil.demo1.gateway.util.config.MLEngineProperties com.mudgil.demo1.gateway.util.config.Config.mlEngineProperties
+2017-11-27 20:48:39,304 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2017-11-27 20:48:39,500 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-11-27 20:48:39,509 INFO  [main] com.mudgil.demo1.gateway.GatewayAppStarter : Started GatewayAppStarter in 13.547 seconds (JVM running for 14.967)
+2017-11-27 20:50:22,314 INFO  [http-nio-8081-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/app-gateway] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-27 20:50:24,043 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1355761150
+2017-11-27 20:50:24,448 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1339034521
+2017-11-27 20:50:24,624 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1324408840
+2017-11-27 20:50:24,705 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1132847434
+2017-11-27 20:50:24,782 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1599575218
+2017-11-27 20:50:24,868 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1308186537
+2017-11-27 20:50:24,944 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1640049218
+2017-11-27 20:50:25,031 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1140462081
+2017-11-27 20:50:25,104 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1039218655
+2017-11-27 20:50:25,158 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1979337468
+2017-11-27 20:50:25,215 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1978475925
+2017-11-27 20:50:25,270 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1837879611
+2017-11-27 20:50:25,321 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1882792356
+2017-11-27 20:50:25,375 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1229982945
+2017-11-27 20:50:25,432 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1678293150
+2017-11-27 20:50:25,599 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1261719292
+2017-11-27 20:50:25,667 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1063586651
+2017-11-27 20:50:25,725 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1467959953
+2017-11-27 20:50:25,791 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1157130954
+2017-11-27 20:50:25,839 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1068734488
+2017-11-27 20:50:25,887 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1407008004
+2017-11-27 20:50:25,932 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1585399676
+2017-11-27 20:50:25,976 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1320076477
+2017-11-27 20:50:26,018 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1586478984
+2017-11-27 20:50:26,060 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1151471639
+2017-11-27 20:50:26,104 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1382061907
+2017-11-27 20:50:26,146 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1478771692
+2017-11-27 20:50:26,189 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1077026371
+2017-11-27 20:50:26,237 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1031236866
+2017-11-27 20:50:26,284 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1337683383
+2017-11-27 20:50:26,330 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1855545357
+2017-11-27 20:50:26,377 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1025274580
+2017-11-27 20:50:26,421 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1008485319
+2017-11-27 20:50:26,461 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1822431435
+2017-11-27 20:50:26,501 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1387475762
+2017-11-27 20:50:26,541 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1168267263
+2017-11-27 20:50:26,583 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1353563959
+2017-11-27 20:50:26,623 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1803339707
+2017-11-27 20:50:26,665 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1376030104
+2017-11-27 20:50:26,702 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1446023970
+2017-11-27 20:50:26,750 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1828821955
+2017-11-27 20:50:26,789 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1673142601
+2017-11-27 20:50:26,841 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1772872040
+2017-11-27 20:50:26,893 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1526998483
+2017-11-27 20:50:26,931 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1372399500
+2017-11-27 20:50:26,969 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1501387878
+2017-11-27 20:50:27,010 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1888113551
+2017-11-27 20:50:27,053 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1289189868
+2017-11-27 20:50:27,096 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1999250428
+2017-11-27 20:50:27,138 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1053896303
+2017-11-27 20:50:27,181 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1497991347
+2017-11-27 20:50:27,228 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1345600680
+2017-11-27 20:50:27,280 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1287722882
+2017-11-27 20:50:27,344 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1902506106
+2017-11-27 20:50:27,389 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1616094586
+2017-11-27 20:50:27,431 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1269172351
+2017-11-27 20:50:27,481 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1862011489
+2017-11-27 20:50:27,529 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1641148311
+2017-11-27 20:50:27,578 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1648801820
+2017-11-27 20:50:27,622 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1101491877
+2017-11-27 20:50:27,670 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1740214894
+2017-11-27 20:50:27,725 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1280080191
+2017-11-27 20:50:27,773 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1118442948
+2017-11-27 20:50:27,831 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1422484177
+2017-11-27 20:50:27,876 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1061845981
+2017-11-27 20:50:27,919 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1206829634
+2017-11-27 20:50:27,962 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1778346723
+2017-11-27 20:50:28,008 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1206275935
+2017-11-27 20:50:28,055 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1276760044
+2017-11-27 20:50:28,102 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1117134568
+2017-11-27 20:50:28,152 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1362557409
+2017-11-27 20:50:28,204 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1359798220
+2017-11-27 20:50:28,249 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1465268695
+2017-11-27 20:50:28,302 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1149889302
+2017-11-27 20:50:28,376 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1012605200
+2017-11-27 20:50:28,423 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1903172503
+2017-11-27 20:50:28,462 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1004143899
+2017-11-27 20:50:28,500 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1095642330
+2017-11-27 20:50:28,544 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1427520730
+2017-11-27 20:50:28,593 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1933552361
+2017-11-27 20:50:28,635 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1573062788
+2017-11-27 20:50:28,681 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1169091759
+2017-11-27 20:50:28,726 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1675976241
+2017-11-27 20:50:28,780 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1003314674
+2017-11-27 20:50:28,836 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1269393740
+2017-11-27 20:50:28,893 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1372200893
+2017-11-27 20:50:28,939 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1049799021
+2017-11-27 20:50:28,977 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1254640894
+2017-11-27 20:50:29,040 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1573726052
+2017-11-27 20:50:29,077 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1522459096
+2017-11-27 20:50:29,112 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1580197368
+2017-11-27 20:50:29,150 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1861870452
+2017-11-27 20:50:29,190 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1174295596
+2017-11-27 20:50:29,232 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1814525591
+2017-11-27 20:50:29,276 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1357005025
+2017-11-27 20:50:29,354 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1793159286
+2017-11-27 20:50:29,401 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1606730807
+2017-11-27 20:50:29,467 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1969274650
+2017-11-27 20:50:29,519 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1403547816
+2017-11-27 20:50:29,559 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1431538076
+2017-11-27 20:50:53,259 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1623636488
+2017-11-27 20:50:53,407 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1104193835
+2017-11-27 20:50:53,444 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1275124061
+2017-11-27 20:50:53,490 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1867226724
+2017-11-27 20:50:53,526 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1401834107
+2017-11-27 20:50:53,560 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1714042646
+2017-11-27 20:50:53,595 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1335376867
+2017-11-27 20:50:53,629 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1192862173
+2017-11-27 20:50:53,674 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1799687402
+2017-11-27 20:50:53,710 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1310684656
+2017-11-27 20:50:53,754 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1858814483
+2017-11-27 20:50:53,794 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1466153383
+2017-11-27 20:50:53,829 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1871508290
+2017-11-27 20:50:53,872 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1357866799
+2017-11-27 20:50:53,915 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1858012868
+2017-11-27 20:50:53,958 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1343087784
+2017-11-27 20:50:53,995 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1174397412
+2017-11-27 20:50:54,034 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1006018726
+2017-11-27 20:50:54,077 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1072604880
+2017-11-27 20:50:54,148 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1744100808
+2017-11-27 20:50:54,258 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1133523738
+2017-11-27 20:50:54,324 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1634402819
+2017-11-27 20:50:54,391 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1235298936
+2017-11-27 20:50:54,451 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1895589073
+2017-11-27 20:50:54,514 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1361679585
+2017-11-27 20:50:54,566 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1629198744
+2017-11-27 20:50:54,617 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1203404946
+2017-11-27 20:50:54,685 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1076838873
+2017-11-27 20:50:54,746 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1851923544
+2017-11-27 20:50:54,810 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1388322837
+2017-11-27 20:50:54,856 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1102496456
+2017-11-27 20:50:54,912 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1153556529
+2017-11-27 20:50:54,950 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1526705873
+2017-11-27 20:50:54,991 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1082757948
+2017-11-27 20:50:55,030 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1654678002
+2017-11-27 20:50:55,070 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1666663906
+2017-11-27 20:50:55,113 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1652484892
+2017-11-27 20:50:55,151 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1123763321
+2017-11-27 20:50:55,186 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1780804355
+2017-11-27 20:50:55,222 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1019619451
+2017-11-27 20:50:55,257 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1879132259
+2017-11-27 20:50:55,295 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1743538517
+2017-11-27 20:50:55,333 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1576032370
+2017-11-27 20:50:55,372 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1708506339
+2017-11-27 20:50:55,408 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1491272900
+2017-11-27 20:50:55,444 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1191082061
+2017-11-27 20:50:55,490 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1334337367
+2017-11-27 20:50:55,527 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1531732802
+2017-11-27 20:50:55,563 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1607344115
+2017-11-27 20:50:55,602 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1985577689
+2017-11-27 20:50:55,644 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1128146046
+2017-11-27 20:50:55,681 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1589459101
+2017-11-27 20:50:55,718 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1434099770
+2017-11-27 20:50:55,759 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1095782781
+2017-11-27 20:50:55,797 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1320384763
+2017-11-27 20:50:55,839 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1963465581
+2017-11-27 20:50:55,884 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1100043764
+2017-11-27 20:50:55,928 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1148591508
+2017-11-27 20:50:55,977 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1831818011
+2017-11-27 20:50:56,028 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1639821807
+2017-11-27 20:50:56,069 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1796251456
+2017-11-27 20:50:56,126 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1815735306
+2017-11-27 20:50:56,173 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1645090177
+2017-11-27 20:50:56,217 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1652911521
+2017-11-27 20:50:56,256 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1304298600
+2017-11-27 20:50:56,296 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1945733949
+2017-11-27 20:50:56,330 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1570943316
+2017-11-27 20:50:56,372 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1572820365
+2017-11-27 20:50:56,408 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1057956961
+2017-11-27 20:50:56,442 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1944895159
+2017-11-27 20:50:56,497 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1399746824
+2017-11-27 20:50:56,542 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1737563859
+2017-11-27 20:50:56,582 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1114229773
+2017-11-27 20:50:56,617 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1830009890
+2017-11-27 20:50:56,661 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1005460543
+2017-11-27 20:50:56,700 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1400000501
+2017-11-27 20:50:56,745 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1931105269
+2017-11-27 20:50:56,789 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1805434972
+2017-11-27 20:50:56,827 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1647389652
+2017-11-27 20:50:56,868 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1856192883
+2017-11-27 20:50:56,909 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1181917934
+2017-11-27 20:50:56,946 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1810371705
+2017-11-27 20:50:56,983 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1837493218
+2017-11-27 20:50:57,021 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1710951938
+2017-11-27 20:50:57,057 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1675893956
+2017-11-27 20:50:57,094 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1710238794
+2017-11-27 20:50:57,136 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1738868597
+2017-11-27 20:50:57,178 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1182510357
+2017-11-27 20:50:57,235 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1656609444
+2017-11-27 20:50:57,278 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1422726383
+2017-11-27 20:50:57,322 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1672590804
+2017-11-27 20:50:57,369 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1127752443
+2017-11-27 20:50:57,417 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1090855542
+2017-11-27 20:50:57,457 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1692958300
+2017-11-27 20:50:57,497 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1119397344
+2017-11-27 20:50:57,534 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1816345248
+2017-11-27 20:50:57,570 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1760592459
+2017-11-27 20:50:57,609 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1446668129
+2017-11-27 20:50:57,645 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1642479976
+2017-11-27 20:50:57,681 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1865848057
+2017-11-27 20:52:41,778 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1972216171
+2017-11-27 20:52:41,905 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1830018497
+2017-11-27 20:52:41,947 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1926364820
+2017-11-27 20:52:41,981 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1591374491
+2017-11-27 20:52:42,017 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1952986972
+2017-11-27 20:52:42,053 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1896058577
+2017-11-27 20:52:42,087 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1785132978
+2017-11-27 20:52:42,122 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1466948514
+2017-11-27 20:52:42,156 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1962501430
+2017-11-27 20:52:42,189 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1498549847
+2017-11-27 20:52:42,226 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1530929348
+2017-11-27 20:52:42,259 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1694871884
+2017-11-27 20:52:42,294 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1718750111
+2017-11-27 20:52:42,332 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1223762574
+2017-11-27 20:52:42,367 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1313858452
+2017-11-27 20:52:42,406 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1323637241
+2017-11-27 20:52:42,442 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1110547569
+2017-11-27 20:52:42,486 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1177497625
+2017-11-27 20:52:42,522 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1482637684
+2017-11-27 20:52:42,560 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1262654652
+2017-11-27 20:52:42,596 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1822036410
+2017-11-27 20:52:42,637 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1680585854
+2017-11-27 20:52:42,677 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1742541142
+2017-11-27 20:52:42,718 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1697962778
+2017-11-27 20:52:42,760 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1643213517
+2017-11-27 20:52:42,802 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1345209347
+2017-11-27 20:52:42,848 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1129875600
+2017-11-27 20:52:42,883 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1975253461
+2017-11-27 20:52:42,925 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1563130285
+2017-11-27 20:52:42,968 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1967590752
+2017-11-27 20:52:43,006 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1178280029
+2017-11-27 20:52:43,043 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1796435048
+2017-11-27 20:52:43,081 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1205557205
+2017-11-27 20:52:43,119 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1311634764
+2017-11-27 20:52:43,153 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1906417732
+2017-11-27 20:52:43,188 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1668576609
+2017-11-27 20:52:43,225 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1474694807
+2017-11-27 20:52:43,261 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1400048449
+2017-11-27 20:52:43,305 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1392562102
+2017-11-27 20:52:43,343 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1552297211
+2017-11-27 20:52:43,378 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1176500230
+2017-11-27 20:52:43,415 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1617046391
+2017-11-27 20:52:43,452 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1552631765
+2017-11-27 20:52:43,495 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1533794752
+2017-11-27 20:52:43,546 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1236394457
+2017-11-27 20:52:43,625 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1098877732
+2017-11-27 20:52:43,668 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1789839121
+2017-11-27 20:52:43,711 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1269284874
+2017-11-27 20:52:43,752 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1445347118
+2017-11-27 20:52:43,793 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1718161515
+2017-11-27 20:52:43,834 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1888142853
+2017-11-27 20:52:43,883 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1892948467
+2017-11-27 20:52:43,924 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1171257872
+2017-11-27 20:52:43,962 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1230778624
+2017-11-27 20:52:44,000 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1641775241
+2017-11-27 20:52:44,069 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1101267785
+2017-11-27 20:52:44,131 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1818430790
+2017-11-27 20:52:44,175 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1653254134
+2017-11-27 20:52:44,215 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1691535823
+2017-11-27 20:52:44,255 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1312002935
+2017-11-27 20:52:44,297 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1614828900
+2017-11-27 20:52:44,335 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1719670506
+2017-11-27 20:52:44,380 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1256745349
+2017-11-27 20:52:44,475 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1020807875
+2017-11-27 20:52:44,513 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1402131739
+2017-11-27 20:52:44,555 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1168581325
+2017-11-27 20:52:44,598 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1120188267
+2017-11-27 20:52:44,649 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1780425591
+2017-11-27 20:52:44,684 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1789494436
+2017-11-27 20:52:44,720 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1648059987
+2017-11-27 20:52:44,758 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1371536014
+2017-11-27 20:52:44,794 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1085854785
+2017-11-27 20:52:44,839 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1081493345
+2017-11-27 20:52:44,884 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1375615773
+2017-11-27 20:52:44,928 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1345415041
+2017-11-27 20:52:44,972 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1992982543
+2017-11-27 20:52:45,012 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1332059649
+2017-11-27 20:52:45,054 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1252097398
+2017-11-27 20:52:45,093 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1558189205
+2017-11-27 20:52:45,129 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1441013905
+2017-11-27 20:52:45,166 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1372532108
+2017-11-27 20:52:45,205 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1133154497
+2017-11-27 20:52:45,242 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1257727958
+2017-11-27 20:52:45,282 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1636519117
+2017-11-27 20:52:45,323 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1422986214
+2017-11-27 20:52:45,365 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1555671297
+2017-11-27 20:52:45,404 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1807471007
+2017-11-27 20:52:45,445 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1480925931
+2017-11-27 20:52:45,486 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1853733811
+2017-11-27 20:52:45,519 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1544757478
+2017-11-27 20:52:45,558 INFO  [http-nio-8081-exec-3] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1055815577
+2017-11-27 20:52:45,593 INFO  [http-nio-8081-exec-4] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1904201031
+2017-11-27 20:52:45,630 INFO  [http-nio-8081-exec-5] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1477578380
+2017-11-27 20:52:45,670 INFO  [http-nio-8081-exec-8] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1724643494
+2017-11-27 20:52:45,712 INFO  [http-nio-8081-exec-6] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1065805120
+2017-11-27 20:52:45,752 INFO  [http-nio-8081-exec-7] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1978649680
+2017-11-27 20:52:45,793 INFO  [http-nio-8081-exec-9] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1150576736
+2017-11-27 20:52:45,830 INFO  [http-nio-8081-exec-2] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1971632328
+2017-11-27 20:52:45,908 INFO  [http-nio-8081-exec-10] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1296097651
+2017-11-27 20:52:45,954 INFO  [http-nio-8081-exec-1] com.mudgil.demo1.gateway.controller.GatewayApiController : Returning decision on TransId= 1589367907

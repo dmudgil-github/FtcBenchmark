@@ -1,0 +1,33 @@
+server:
+  port: 8082
+  contextPath: /app-ml-engine
+
+
+logging:
+  file: ../logs/app-ml-engine/logfile.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.security: WARN
+    org.springframework.web: ERROR
+    com.mudgil.demo1: INFO
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+---
+
+spring:
+  profiles: dev
+     
+
+
+--- 
+
+spring:
+  profiles: prod
+     

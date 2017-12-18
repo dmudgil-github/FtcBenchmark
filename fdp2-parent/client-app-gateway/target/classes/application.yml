@@ -1,0 +1,47 @@
+logging:
+  file: ../logs/client-app-gateway/logfile.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.security: ERROR
+    org.springframework.boot: INFO
+    org.springframework.web: INFO
+    com.mudgil.demo1: INFO
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    web-environment: false
+    
+---
+
+spring:
+  profiles: dev
+     
+servergateway:
+  app-path:
+    app-context: /app-gateway
+    apiURI: /api/gateway/
+  cluster:
+    - host: localhost
+      port: 8081
+
+
+--- 
+
+spring:
+  profiles: prod
+     
+servergateway:
+  app-path:
+    app-context: /app-gateway
+    apiURI: /api/txn/
+  cluster:
+    - host: localhost
+      port: 7081
+    - host: localhost1
+      port: 7181   
+
